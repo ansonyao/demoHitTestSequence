@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.bringSubview(toFront: label1)
+        label1.layer.zPosition = 100
     }
 }
 
