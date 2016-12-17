@@ -68,6 +68,11 @@
                             <constraint firstAttribute="trailing" secondItem="lgf-d1-iZe" secondAttribute="trailing" id="XCE-Ls-22m"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label1" destination="lgf-d1-iZe" id="ljr-dA-fyN"/>
+                        <outlet property="label2" destination="OrY-gU-wYl" id="pQN-Zx-tIS"/>
+                        <outlet property="label3" destination="77Q-Zn-zQ0" id="Nld-kL-Bpc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

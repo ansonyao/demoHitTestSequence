@@ -15,5 +15,4 @@ class HitTestUILabel: UILabel {
         print("run hit Test for View " + String(labelNumber))
         return super.hitTest(point, with: event)
     }
-
 }
